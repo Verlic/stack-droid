@@ -1,0 +1,14 @@
+{
+  "name": "stack",
+  "script": "index.js",
+  "actions": [
+    {
+      "function": "ask",
+      "aliases": ["search :question([\\s\\S]*)"],
+      "acls": {
+        "explicitMention": true
+      },
+      "premessage": "_Searching in StackOverflow..._"
+    }
+  ]
+}
